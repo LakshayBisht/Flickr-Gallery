@@ -14,7 +14,7 @@ const usePhotoSearch = (query, pageNumber) => {
 	useEffect(() => {
 		const api = {
 			url: 'https://api.flickr.com/services/rest',
-			key: process.env.API_KEY,
+			key: process.env.REACT_APP_API_KEY,
 		};
 		setLoading(true);
 		setError(false);
